@@ -6,7 +6,7 @@ public class ex1 {
 public static void main(String[] args) {
 
     String regex = "engineering" ; // desires pattern 
-    String input  = "engineering is good, engineering is grate, study engineering" ; 
+    String input  = "engineering is good, engineering is great, study engineering" ; 
 
     Pattern p = Pattern.compile(regex); // want to find one of a,b,c
     Matcher m = p.matcher(input); // the text to search within
